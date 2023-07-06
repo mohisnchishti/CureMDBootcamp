@@ -4,36 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp6
+namespace ConsoleApp5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int max, min; 
-            int[] arr = new int[10];
-            Console.WriteLine("enter the numbers");
-            for (int i = 0; i < arr.Length; i++)
+            string string1="";
+            string string2;
+            Console.WriteLine("enter string");
+            Console.ReadLine();
+            char[] arr = string1.ToCharArray(); 
+            Array.Reverse(arr);
+            string2 = new string(arr);
+            if (string1 == string2)
             {
-                arr[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine("string is palindrome");
+
             }
-            max= arr[0];
-            min= arr[0];
-            for (int i = 0; i < arr.Length; i++)
+            else
             {
-                if (arr[i] > max)
-                {
-                    max = arr[i];
-                }
-                if (arr[i] < min)
-                {
-                    arr[i] = min;
-                }
-                
+                Console.WriteLine("string is not palindrome");
             }
-            Console.WriteLine("minimun number in array is " + min);
-            Console.WriteLine("maximum number in array is " + max);
+
             Console.ReadKey();
+
         }
     }
 }
