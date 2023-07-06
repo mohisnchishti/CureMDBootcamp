@@ -4,31 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5
+namespace ConsoleApp4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string string1="";
-            string string2;
-            Console.WriteLine("enter string");
-            Console.ReadLine();
-            char[] arr = string1.ToCharArray(); 
-            Array.Reverse(arr);
-            string2 = new string(arr);
-            if (string1 == string2)
+         
+            int[] arr = new int[5];
+            Console.WriteLine("please enter the numbers of array");
+           
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine("string is palindrome");
-
+                arr[i] = int.Parse(Console.ReadLine());
             }
-            else
+            int num;
+            Console.WriteLine("enter the number");
+            num = int.Parse(Console.ReadLine());
+           
+            for (int j = 0; j < 5; j++)
             {
-                Console.WriteLine("string is not palindrome");
+                if (num == arr[j])
+                { 
+                Console.WriteLine(num +" is present in th array");
+                }
             }
-
             Console.ReadKey();
-
         }
     }
 }
