@@ -4,21 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp9
+namespace ConsoleApp8
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string string1;
-          
-            Console.WriteLine("enter the string");
-           string1= Console.ReadLine();
-            for (int i=string1.Length-1; i >= 0; i--)
+            int n;
+            Console.WriteLine("please enter the size of n");
+            n = int.Parse(Console.ReadLine());
+            int x = n - 1;
+            for (int i = 0; i < n; i++)
             {
-                Console.Write(string1[i]);
+                for (int j = n-1; j >i; j--)
+                {
+                    Console.Write(" ");
+                   
+                }
+
+                for(int k = 1; k <= 2*i+1; k++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine("");
+
+
             }
             Console.ReadKey();
         }
+       
     }
 }
+
