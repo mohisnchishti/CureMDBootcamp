@@ -4,29 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mm
+namespace perfect_number
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            int b = 1;
             int num;
-            int c = 0;
-            Console.WriteLine("please enter the number");
-            num=Convert.ToInt32( Console.ReadLine());
-            Console.WriteLine("The fabonacci series is");
-            Console.Write(a + " " + b + " ");
-            for (int i = 2; i < num; i++)
+            int sum = 0;
+            Console.WriteLine("please enter a number");
+            num = int.Parse(Console.ReadLine());
+            for (int i = 1; i < num; i++)
             {
-                c = a + b;
-                Console.Write(c + " ");
-                a = b;
-                b = c;
-
+                if (num % i == 0) 
+                {
+                    sum = sum + i;
+                }
+            
             }
+            if (sum == num)
+            {
+                Console.WriteLine(num + " is perfect number");
+            }
+            else
+            {
 
+                Console.Write(num + " is not a perfect number");
+            }
             Console.ReadKey();
         }
     }
