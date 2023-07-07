@@ -1,0 +1,7 @@
+C:\Users\Crown Tech\source\repos\mm\mm\bin\Debug\mm.exe.config
+C:\Users\Crown Tech\source\repos\mm\mm\bin\Debug\mm.exe
+C:\Users\Crown Tech\source\repos\mm\mm\bin\Debug\mm.pdb
+C:\Users\Crown Tech\source\repos\mm\mm\obj\Debug\mm.csproj.AssemblyReference.cache
+C:\Users\Crown Tech\source\repos\mm\mm\obj\Debug\mm.csproj.CoreCompileInputs.cache
+C:\Users\Crown Tech\source\repos\mm\mm\obj\Debug\mm.exe
+C:\Users\Crown Tech\source\repos\mm\mm\obj\Debug\mm.pdb
