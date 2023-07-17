@@ -1,0 +1,7 @@
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\bin\Debug\Assignment2-V4.exe.config
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\bin\Debug\Assignment2-V4.exe
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\bin\Debug\Assignment2-V4.pdb
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\obj\Debug\Assignment2-V4.csproj.AssemblyReference.cache
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\obj\Debug\Assignment2-V4.csproj.CoreCompileInputs.cache
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\obj\Debug\Assignment2-V4.exe
+C:\Users\Crown Tech\source\repos\Assignment2-V4\Assignment2-V4\obj\Debug\Assignment2-V4.pdb
